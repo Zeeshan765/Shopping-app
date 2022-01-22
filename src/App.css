@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #03091f;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: #03091f;
+}
+
+a {
+  color: inherit;
+  font-family: inherit;
+}
+p {
+  line-height: 2rem;
+}
+
+
+.Before{
+  padding-left: 3rem;
+  position: relative;
+}
+.Before::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+ 
+  width: 35px;
+  height: 2px;
+  background-color: #395FF6 ;
+}
+

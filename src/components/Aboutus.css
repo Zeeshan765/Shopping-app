@@ -1,0 +1,74 @@
+.aboutus-container {
+  width: 100%;
+  display: inline-block;
+  /*border: 1px dashed yellow;
+    border-bottom: 1px dashed yellow;*/
+}
+
+.aboutus-container h1 {
+  /*color: rgb(26, 218, 218);*/
+  background: linear-gradient(120deg, rgb(132, 111, 244), rgb(241, 118, 116));
+  background-clip: text;
+ 
+ 
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  margin-top: 0rem;
+  margin-bottom: 8px;
+  text-align: center;
+
+  font-size: 4rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+
+  letter-spacing: 0.2rem;
+}
+.about-detail {
+  width: 96%;
+  height: 430px;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+  margin-top: 10px;
+ 
+  height:380px;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+}
+
+.left {
+  margin: 13px;
+  
+ 
+  height:350px;
+  overflow: hidden;
+  
+}
+.about-para {
+ 
+  margin: 15px;
+  text-align:justify;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+}
+
+.right {
+    margin: 13px;
+    width: 90%;
+    
+    
+    height:330px;
+
+  }
+  .right img{
+     
+     
+      width: 98%;
+      height:330px;
+      object-fit: cover;
+  }

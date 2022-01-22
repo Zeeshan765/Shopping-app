@@ -1,0 +1,34 @@
+.product-container {
+  width: 100%;
+  height: 730px;
+  /*border: 1px dashed yellow;
+    border-bottom: 1px dashed yellow;*/
+}
+
+.product-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  min-height: 750px;
+}
+
+.product-container h1 {
+  background: linear-gradient(120deg, rgb(132, 111, 244), rgb(241, 118, 116));
+  background-clip: text;
+ 
+ 
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 8px;
+  text-align: center;
+
+  font-size: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: normal;
+
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
